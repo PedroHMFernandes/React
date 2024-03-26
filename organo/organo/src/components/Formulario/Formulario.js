@@ -11,16 +11,6 @@ const Formulario = (props) => {
     const [imagem, setImagem] = useState('');
     const [time, setTime] = useState();
 
-    const times = [
-        "Programação",
-        "Front-End",
-        "Data Science",
-        "DevOps",
-        "UX e Desing",
-        "Mobile",
-        "Inovação e Gestão",
-    ];
-
     const aoSalvar = (evento) => {
         evento.preventDefault();
         props.aoColaboradorCadastrado(
@@ -47,7 +37,7 @@ const Formulario = (props) => {
                 <CampoTexto label="Imagem" placeholder="Informe o endereço da imagem"
                     valor={imagem} aoAlterado={setImagem} />
 
-                <ListaSuspensa label="Time" itens={times}
+                <ListaSuspensa label="Time" itens={props.times}
                     obrigatorio={true} valor={time} aoALterado={setTime} />
 
                 <Botao> Criar um card </Botao>

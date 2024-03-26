@@ -1,0 +1,37 @@
+:root {
+  --prog-color: #57c278;
+  --front-color: #82cffa;
+  --data-color: #a6d157;
+  --devops-color: #e06b69;
+  --uxdesing-color: #db6ebf;
+  --mobile-color: #ffba05;
+  --inovagest-color: #ff8a29;
+
+  --prog-fundo: #d9f7e9;
+  --front-fundo: #e8f8ff;
+  --data-fundo: #f0f8e2;
+  --devops-fundo: #fde7e8;
+  --uxdesing-fundo: #fae9f5;
+  --mobile-fundo: #fff5d9;
+  --inovagest-fundo: #ffeedf;
+}
+
+.time {
+  text-align: center;
+  padding: 32px;
+  background-color: var(--prog-fundo);
+}
+
+.time h3 {
+  font-family: prata;
+  font-size: 32px;
+  border-bottom: 4px solid;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.colaboradores {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
