@@ -1,3 +1,5 @@
+import { MdSwitchLeft } from "react-icons/md";
+
 export default function Verso(props) {
     return (
         <section className="card">
@@ -5,7 +7,8 @@ export default function Verso(props) {
             <div className="ca">
             </div>
             <button onClick={props.toggleSide}>
-                vira
+                <MdSwitchLeft size={30} />
+
             </button>
         </ section>
     );

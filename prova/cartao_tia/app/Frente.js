@@ -1,3 +1,5 @@
+import { MdSwitchRight } from "react-icons/md";
+
 export default function Frente(props) {
     return (
         <section className="card">
@@ -14,7 +16,8 @@ export default function Frente(props) {
                 </div>
             </div>
             <button onClick={props.toggleSide}>
-                vira
+                <MdSwitchRight size={30} />
+
             </button>
         </ section>
     );
