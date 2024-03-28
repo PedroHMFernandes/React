@@ -1,5 +1,3 @@
-"uso client"
-
 export default function Frente() {
     return (
         <section className="card">
