@@ -1,4 +1,4 @@
-export default function Frente() {
+export default function Frente(props) {
     return (
         <section className="card">
             <h1>Mackenzie</h1>
@@ -13,6 +13,9 @@ export default function Frente() {
                     <p>SISTEMAS DE INFORMACAO</p>
                 </div>
             </div>
+            <button onClick={props.toggleSide}>
+                vira
+            </button>
         </ section>
     );
 }
